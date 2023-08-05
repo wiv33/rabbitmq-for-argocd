@@ -18,7 +18,7 @@ global:
   ##   - myRegistryKeySecretName
   ##
   imagePullSecrets: []
-  storageClass: ""
+  storageClass: "openebs-hostpath"
 
 ## @section RabbitMQ Image parameters
 ## Bitnami RabbitMQ image version
